@@ -1,0 +1,262 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("images/background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 50%;
+}
+
+/* Full-width input fields */
+.password, .username {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #163575;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 20px;
+
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+
+}
+
+
+/* Modal Content/Box */
+.modal{
+  background-color: 	rgb(255,255,255,0.5);
+  margin: 5% auto auto auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+  height: 75%;
+  text-align: center;
+  border-radius: 25px;
+  overflow: auto;
+}
+.main {
+  background-color: 	rgb(255,255,255,0.5);
+  margin: 5% auto auto auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 95%; /* Could be more or less, depending on screen size */
+  height: 85vh;
+
+  border-radius: 25px;
+  overflow: auto;
+  overflow-y:auto;
+  display: flex;
+}
+
+.left{
+  overflow: auto;
+  overflow-y:auto;
+    background-color: #FFFFFF;
+    width: 25%;
+}
+.right{
+  overflow: auto;
+  overflow-y:auto;
+ 
+}
+hr{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.header{
+  margin-top: 33px;
+  text-align: center;
+}
+.title {
+  font-weight: bold;
+  font-size: 35px;
+  display: inline-block;
+  margin-left: 20px;
+  text-decoration: underline #E59C29 solid 20px;
+  text-underline-offset: 0.25em;
+
+}
+.dot {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 100px;
+  width: 100px;
+  background-color: #163575;
+  border-radius: 50%;
+  display: inline-block;
+  color: #FFFFFF;
+  text-align: center;
+}
+.Search{
+  width: 307px;
+  height: 26px;
+  border-radius: 20px;
+  background: #D9D9D9;
+  margin-left: 70px;
+  display: flex;
+}
+.sunny{
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 48px;
+
+  float:left;
+
+}
+.star{
+    margin-left: 20px;
+    width: 48px;
+    height: 48px;
+    float:left;
+
+}
+.imageText{
+
+  margin-top: 25px;
+  margin-left: 80px;
+}
+a:link, a:visited {
+  color: #000000;
+  cursor: pointer;
+  text-decoration: none;
+}
+.lefttitle{
+  margin-top: 120px;
+  margin-left: 50px;
+
+}
+.icons{
+  margin-left: 12px;
+  background-color: #FFFFFF;
+
+}
+.iconsDiv{
+  margin-left: 1000px;
+  float: right;
+}
+.check{
+
+    margin-left: 12px;
+    margin-top: 25px;
+}
+.list-item{
+  margin-left: 12px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin-bottom: 12px;
+}
+
+a:link:active, a:visited:active {
+  color: #000000;
+  text-decoration: none;
+}
+.listDescription{
+  margin-top: -19px;
+  margin-left: 50px;
+
+}
+.list-title{
+  margin-left: 50px;
+  margin-top: -19px;
+
+}
+.listIcons{
+  float: right;
+  margin-top: -40px;
+  margin-right: 5PX;
+}
+.staricons{
+  height: 50px;
+}
+.footer{
+  text-align: center;
+  color: #FFFFFF;
+}
+.addButton{
+  margin-left: 12px;
+  text-align: left;
+  border-radius: 10px;
+
+}
+.buttonIcon{
+  height: 20px;
+  
+}
+.addButton2{
+  text-align: left;
+  border-radius: 10px;
+  background-color: #D9D9D9;
+  color: gray;
+}
+.addTaskInput
+{
+  height: 50px;
+  width: 500px;
+  border-radius: 20px 20px 20px 20px;
+}
+.popUp{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100hv;
+  background-color: rgba(0,0,0,0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.popUp-inner{
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: #FFFFFF;
+}
+.popUp-inner .close-btn{
+  position: absolute;
+  top:16px;
+  right: 16px;
+}
+.close-btn{
+  width: 50px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 0px;
+  background-color: red;
+  
+}
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+
+}
